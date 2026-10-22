@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "vilasfantasticas",
+  "version": "${version}",
+  "name": "Vilas Fantásticas",
+  "description": "Explore vilas especiais, conheça aldeões e descubra novas aventuras.",
+  "authors": [
+    "leonardorost55-arch"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "br.com.vilasfantasticas.VilasFantasticas"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
