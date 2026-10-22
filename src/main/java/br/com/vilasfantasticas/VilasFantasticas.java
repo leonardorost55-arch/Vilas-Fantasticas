@@ -23,7 +23,7 @@ public class VilasFantasticas implements ModInitializer {
             }
 
             String professionId = Registries.VILLAGER_PROFESSION
-                    .getId(villager.getVillagerData().getProfession().value())
+                    .getId(villager.getVillagerData().getProfession())
                     .getPath();
             String professionName = getProfessionName(professionId);
 
