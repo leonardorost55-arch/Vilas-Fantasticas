@@ -12,6 +12,9 @@
   "entrypoints": {
     "main": [
       "br.com.vilasfantasticas.VilasFantasticas"
+    ],
+    "client": [
+      "br.com.vilasfantasticas.VilasFantasticasClient"
     ]
   },
   "depends": {
